@@ -11,7 +11,7 @@ It gathers a set of R, Python and Java-based scripts for performing sequential a
 	4) Visual representation of results (hierarchical edge bundling visualization for the joint representation of gene networks and all accessed biological information)
 
 
-These processes have been specially designed for Affymetrix array platforms and are organized in seven pipeline STEPs. The instructions for running each part of the code are detailed bellow. For exampling purposes, we have included the raw expression data of the public dataset GSE103766, which can also be downloaded from the next URL (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103766).
+These processes have been specially designed for Affymetrix array platforms and are organized in seven pipeline STEPs. The instructions for running each part of the code are detailed bellow. For exampling purposes, we have included the raw expression data from the public dataset GSE103766, which can also be downloaded from the next URL (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103766).
 
 
 
