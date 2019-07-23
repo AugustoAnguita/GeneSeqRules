@@ -17,7 +17,7 @@ These processes have been specially designed for Affymetrix array platforms and 
 
 
 
-#	STEP - 1 	PRE-PREPROCESSING
+#	STEP - 1 	PRE-PROCESSING
 
 
 These lines are instructions for running the "./GeneSeqRules/required_codes/Part_1_Affy_gene_expression_Preprocessing_and_analysis.r" R script, which is intended for the pre-processing and analysis of raw fluorescence (.cel) files. This script performs:
@@ -56,7 +56,7 @@ Important Note: The script is adapted to the current example problem. If you cha
 
 
 
-#	STEP - 2 	PRE-PREPROCESSING
+#	STEP - 2 	PRE-PROCESSING
 
 
 These lines are instructions for running the "./GeneSeqRules/required_codes/Part_2_gene_expression_discretization_and_sequence_database_generation.r" R script, which is intended for the discretization of absolute gene expression values and the generation of the sequence database. 
@@ -85,7 +85,7 @@ Important Note: The script is adapted to the current example problem. If you cha
 
 
 
-#	STEP - 3 	PRE-PREPROCESSING
+#	STEP - 3 	PRE-PROCESSING
 
 
 These lines are instructions for adapting each generated sequence database to the data format required by the CMRules algorithm. Note: the process should be repeated individually in each of the generated sequence databases.
@@ -174,7 +174,7 @@ Note: If the user want to implement the contrast between two databases when extr
  
 
 
-#	STEP - 5 	POST-PREPROCESSING
+#	STEP - 5 	POST-PROCESSING
 
                                      
 These lines are instructions for running the pmml.py python script, which transforms the (.txt) output rule files into a (.pmml) format annotated with gene and probe names. Note: the process should be repeated individually in each of the generated output rule files.
