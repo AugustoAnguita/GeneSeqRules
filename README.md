@@ -177,14 +177,14 @@ Note: If the user want to implement the contrast between two databases when extr
 #	STEP - 5 	POST-PREPROCESSING
 
                                      
-These lines are instructions for running the pmml.py python script, which transforms the (.txt) output rules file into a (.pmml) format annotated with gene and probe names. Note: the process should be repeated individually in each of the generated output rule files.
+These lines are instructions for running the pmml.py python script, which transforms the (.txt) output rule files into a (.pmml) format annotated with gene and probe names. Note: the process should be repeated individually in each of the generated output rule files.
 
 
 Required Input files:
 
-	- The correspondence file that matches gene names with number ids. It was generated during the step 1 and it is available at "./GeneSeqRules/Output_files/Correspondence_file/Correspondence_gene_names"
+	- The correspondence file that matches gene/probe names with number ids. This file was generated during the first step of the pipeline and it is available at "./GeneSeqRules/Output_files/Correspondence_file/Correspondence_gene_names"
 
-	- The output rules files. They are available as: "./GeneSeqRules/Output_files/Output_rules/Output_rules_more_measures/Output_rules_raw_group_1_measures.txt" for group 1 and "./GeneSeqRules/Output_files/Output_rules/Output_rules_more_measures/Output_rules_raw_group_2_measures.txt" for group 2.
+	- The output rule files. They are available as: "./GeneSeqRules/Output_files/Output_rules/Output_rules_more_measures/Output_rules_raw_group_1_measures.txt" for group 1 and "./GeneSeqRules/Output_files/Output_rules/Output_rules_more_measures/Output_rules_raw_group_2_measures.txt" for group 2.
 
 
 Instructions:
@@ -208,7 +208,7 @@ Instructions:
 #	STEP - 6 	BIOLOGICAL VALIDATION
 
 
-These lines are instructions for running the main.py python script, which annotates output rules with Biological Quality Measures. Note: the process should be repeated individually in each of the generated output file rules.
+These lines are instructions for running the main.py python script, which annotates output rules with Biological Quality Measures. Note: the process should be repeated individually in each of the generated output rule files.
 
 Required Input files:
 
