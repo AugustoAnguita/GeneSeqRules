@@ -36,7 +36,7 @@ PART 1:
 
 PART 2:
 
-	- Discretization of absolute gene expression values and the generation of the sequence database
+	- Discretization of absolute gene expression values and the generation of the sequence database.
 	
 	- Adaptation of each generated sequence database to the data format required by the CMRules algorithm.
 
