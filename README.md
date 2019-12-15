@@ -20,7 +20,7 @@ These processes have been specially designed for Affymetrix array platforms and 
 #	STEP - 1 	PRE-PROCESSING
 
 
-These lines are instructions for running the "./GeneSeqRules/src/Script_Affy_gene_expression_Preprocessing_analysis_and_discretization.r" R script, which is intended for the pre-processing and analysis of raw fluorescence (.cel) files. This script performs:
+These lines are instructions for running the "./GeneSeqRules/src/Affy_gene_expression_Preprocessing_analysis_and_discretization.r" R script, which is intended for the pre-processing and analysis of raw fluorescence (.cel) files. This script performs:
 
 PART 1:
 
@@ -43,7 +43,7 @@ PART 2:
 
 Required Script:
 
-	- "./GeneSeqRules/src/Script_Affy_gene_expression_Preprocessing_analysis_and_discretization.r"
+	- "./GeneSeqRules/src/Affy_gene_expression_Preprocessing_analysis_and_discretization.r"
 
 
 Instructions:
