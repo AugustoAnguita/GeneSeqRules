@@ -11,7 +11,7 @@ It gathers a set of R, Python and Java-based scripts for performing sequential a
 	4) Visual representation of results (hierarchical edge bundling visualization for the joint representation of gene networks and all accessed biological information)
 
 
-These processes have been specially designed for Affymetrix array platforms and are organized in seven pipeline STEPs. The instructions for running each part of the code are detailed bellow. For exampling purposes, we have included the raw expression data from the public dataset GSE103766, which can also be downloaded from the next URL (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103766).
+These processes have been specially designed for Affymetrix array platforms and are organized in five pipeline STEPs. The instructions for running each part of the code are detailed bellow. For exampling purposes, we have included the raw expression data from the public dataset GSE103766, which can also be downloaded from the next URL (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103766).
 
 
 
@@ -162,7 +162,7 @@ Required Input files:
 
 	- The TRRUST database v2. It is available at "./GeneSeqRules/Data/TRRUST_database/TRRUST_rawdata.human.csv")
 
-	- A file with by-probe annotations for GO and KEGG terms. This file should be generated at demand (depending on the Affymetrix array platform employed) using the R script available in "./GeneSeqRules/src/Part_6_generating_annotation_file_with_go_and_kegg_terms_by_probe.r". Once generated, the required by-probe annotations file will be available in the directory "./GeneSeqRules/Data/ae_annot/final/ae.annots.csv"
+	- A file with by-probe annotations for GO and KEGG terms. This file should be generated at demand (depending on the Affymetrix array platform employed) using the R script available in "./GeneSeqRules/src/Part_4_generating_annotation_file_with_go_and_kegg_terms_by_probe.r". Once generated, the required by-probe annotations file will be available in the directory "./GeneSeqRules/Data/ae_annot/final/ae.annots.csv"
 
 
 Instructions:
@@ -196,7 +196,7 @@ Instructions:
 #	STEP - 5 	GRAPHICAL REPRESENTATION OF RESULTS
 
 
-These lines are instructions for running the "./GeneSeqRules/src/Part_7_NetworkGraph_gene_rules_customisable_plots.r" R script, which performs hierarchical edge bundling visualization of extracted rules. Note: the process should be repeated individually in each of the generated output file rules.
+These lines are instructions for running the "./GeneSeqRules/src/Part_5_NetworkGraph_gene_rules_customisable_plots.r" R script, which performs hierarchical edge bundling visualization of extracted rules. Note: the process should be repeated individually in each of the generated output file rules.
 
 
 Required Script:
