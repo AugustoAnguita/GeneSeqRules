@@ -1,4 +1,4 @@
-# GeneSeqRules : Open-source software for finding biologically relevant sequential genge-gene interactions from longitudinal human microarrays. 
+# GeneSeqRules : Open-source software for finding biologically relevant sequential gene-gene interactions from longitudinal human microarrays. 
 
 It gathers a set of R, Python and Java-based scripts for performing sequential association rule mining in gene expression temporal data. The scripts and codes available here will allow the user to perform:
 
