@@ -58,7 +58,11 @@ Instructions:
 	(4) Run the script.
 
 
-Important Note: The script is adapted to the current example problem. If you change the localization of input required .cel files or their name, you will need to modify the code. Each code line has been carefully annotated with full explanation. Read in detail each code comment before making any change. The PART 2 of the current script is prepared for discretizing a microarray with three temporal records. In the case of analyzing an array dataset with 4 available time records, you will need to adapt the code. Each code line has been carefully annotated with full explanation. Read in detail each code comment before making any change.
+Important Notes: 
+
+The script is adapted to the current example problem. If you change the localization of input required files or their name, you will need to modify the code. Each code line has been carefully annotated with full explanation. Read in detail each code comment before making any change. 
+
+The PART 2 of the current script is prepared for discretizing a microarray with three temporal records. In the case of analyzing an array dataset with 4 available time records, you will need to adapt the code. Each code line has been carefully annotated with full explanation. Read in detail each code comment before making any change.
 
 
 
